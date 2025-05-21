@@ -16,6 +16,7 @@ export default tseslint.config(
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+      "@stylexjs": require('@stylexjs/eslint-plugin'),
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
@@ -23,6 +24,10 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
+      "@stylexjs/valid-styles": "error",
+      "@stylexjs/no-unused": "error",
+      "@stylexjs/valid-shorthands": "warning",
+      "@stylexjs/sort-keys": "warning"
     },
   },
 )
