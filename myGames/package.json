@@ -13,6 +13,7 @@
     "@stylexjs/babel-plugin": "^0.13.0",
     "@stylexjs/postcss-plugin": "^0.13.0",
     "@stylexjs/stylex": "^0.13.0",
+    "dotenv": "^16.5.0",
     "postcss": "^8.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"

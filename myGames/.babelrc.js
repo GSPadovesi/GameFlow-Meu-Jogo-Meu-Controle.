@@ -2,8 +2,8 @@ module.exports = {
   presets: [
   ],
   plugins: [
+    "@stylexjs/babel-plugin",
     [
-      "@stylexjs/babel-plugin",
       {
         dev: process.env.NODE_ENV === "development",
         test: process.env.NODE_ENV === "test",
